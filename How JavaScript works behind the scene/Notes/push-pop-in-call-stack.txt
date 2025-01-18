@@ -1,0 +1,90 @@
+Hopefully this will help you visualize a Stack, and how it works.
+
+LIFO => Last In First Out
+
+Empty Stack:
+
+|     |
+|     |
+|     |
+-------
+After Pushing A, you get:
+
+|     |
+|     |
+|  A  |
+-------
+After Pushing B, you get:
+
+|     |
+|  B  |
+|  A  |
+-------
+After Popping, you get:
+
+|     |
+|     |
+|  A  |
+-------
+After Pushing C, you get:
+
+|     |
+|  C  |
+|  A  |
+-------
+After Popping, you get:
+
+|     |
+|     |
+|  A  |
+-------
+After Popping, you get:
+
+|     |
+|     |
+|     |
+-------
+ShareHopefully this will help you visualize a Stack, and how it works.
+
+Empty Stack:
+
+|     |
+|     |
+|     |
+-------
+After Pushing A, you get:
+
+|     |
+|     |
+|  A  |
+-------
+After Pushing B, you get:
+
+|     |
+|  B  |
+|  A  |
+-------
+After Popping, you get:
+
+|     |
+|     |
+|  A  |
+-------
+After Pushing C, you get:
+
+|     |
+|  C  |
+|  A  |
+-------
+After Popping, you get:
+
+|     |
+|     |
+|  A  |
+-------
+After Popping, you get:
+
+|     |
+|     |
+|     |
+-------

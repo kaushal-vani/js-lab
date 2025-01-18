@@ -1,0 +1,56 @@
+body{
+    color: violet;
+    font-size: 20px;
+}
+head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.paragraph{
+    border: 10px;
+}
+#main-heading{
+    font-weight: bolder;
+}
+
+/*
+THERE ARE 3 TYPES OF CSS
+Inline
+Internal
+External
+*/
+
+/*
+^ h1-h6 has predefined font size, they take up that from the browser , if we dont give our own.
+^ id should be unique , class can be used multiple times
+^ class slector is using [ . ]
+^ id selector is using [ # ]
+*/
+
+
+/*
+Introduction to the CSS Box Model
+CSS Box Model consist of 3 main features
+^ padding - transparent area around the content, inside the box
+^ border - goes around the padding and content
+^ margin - space between boxes
+^ fill area - area that gets filled with background color or background image
+*/
+/*  [ * ] Global reset for css removes all pre-defined css for elements*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*To style multiple elements
+
+you can use [ , ]
+*/
+input,button{
+    color: darkblue;
+}
+
+/*The way to select theclass and id works the same way for JavaScript*/
+
+/*Child selector , is to select element inside element*/
